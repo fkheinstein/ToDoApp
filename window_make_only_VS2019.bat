@@ -19,7 +19,7 @@ cd build.windows
 del CMakeCache.txt
 
 echo ******
-cmake -G "Visual Studio 16 2019"   ../../   -DCMAKE_BUILD_TYPE=Debug
+cmake -G "Visual Studio 16 2019"   ../../   -DCMAKE_BUILD_TYPE=Debug -DCMAKE_UNITY_BUILD=ON
 
 echo ######################################################## END
 
